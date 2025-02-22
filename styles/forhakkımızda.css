@@ -1,0 +1,79 @@
+/* Ana konteyner */
+.warp-zone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.image-vortex {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+.avatar-space {
+  width: 80%;
+  max-width: 300px;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.form-tunnel {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.form-tunnel h2 {
+  text-align: center;
+  color: #333;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.form-tunnel form {
+  display: flex;
+  flex-direction: column;
+}
+.form-tunnel label {
+  margin: 10px 0 5px;
+  font-size: 1.2rem;
+  color: #555;
+}
+.form-tunnel input,
+.form-tunnel textarea {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+.form-tunnel input:focus,
+.form-tunnel textarea:focus {
+  border-color: #ff6347;
+  outline: none;
+}
+.form-tunnel button {
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.form-tunnel button:hover {
+  background-color: #45a049;
+}
+@media (max-width: 768px) {
+  #plopbox {
+    display: block !important;
+  }
+  .warp-zone {
+    display: block !important;
+  }
+  #zoomdoodle {
+    margin-top: 125px;
+  }
+}

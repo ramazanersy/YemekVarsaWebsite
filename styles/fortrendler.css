@@ -1,0 +1,141 @@
+.trendana {
+  background: url(../images/sef-asci_jf8f.jpg);
+  background-attachment: fixed;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+.left {
+  flex: 1;
+  padding-right: 10px;
+}
+
+.right {
+  flex: 1;
+  padding-left: 10px;
+}
+
+.left img {
+  width: 100%;
+  height: 465px;
+}
+
+.right h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.right p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+h1 {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.yemekler-tablosu {
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  margin-bottom: 150px;
+}
+
+.yemekler-tablosu th,
+.yemekler-tablosu td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.yemekler-tablosu th {
+  background-color: #333;
+  color: white;
+  font-size: 18px;
+}
+
+.yemekler-tablosu tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.yemekler-tablosu tr:hover {
+  background-color: #ddd;
+}
+.box-1 {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.title {
+  font-size: 2.5em;
+  margin-top: 20px;
+}
+.desc {
+  font-size: 1.1em;
+  margin-top: 10px;
+}
+.line-4 {
+  border-top: 2px solid #000;
+  margin-top: 20px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.left,
+.right {
+  width: 48%;
+}
+.item {
+  margin-bottom: 10px;
+}
+.right .item {
+  list-style-type: decimal;
+}
+.media {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.photo,
+.video-11 {
+  width: 48%;
+}
+iframe {
+  width: 100%;
+  height: 315px;
+}
+.kapsayıcı {
+  background-color: cornsilk;
+}
+@media (max-width: 768px) {
+  .left img {
+    height: 100%;
+  }
+  .flex {
+    display: block;
+  }
+
+  .media {
+    display: block;
+  }
+
+  .left,
+  .right {
+    width: 100% !important;
+  }
+
+  .media div {
+    width: 100%;
+  }
+}
